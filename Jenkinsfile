@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    triggers {
-        pollSCM('H/2 * * * *')
-    }
-
     stages {
         stage('Hello') {
             steps {
@@ -14,7 +10,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                echo 'Building project...hiiiiiiiiiiiiiiiii'
+                echo 'Building project... mohssine '
             }
         }
 
